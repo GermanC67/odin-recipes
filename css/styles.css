@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 body {
 }
 
@@ -22,6 +26,14 @@ img {
 }
 
 .recipe {
-    width: 100px;
+    width: 100%;
     height: auto;
+    margin: auto 6px;
+    padding-top: 0%;
+}
+
+.recipes_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0%;
 }
